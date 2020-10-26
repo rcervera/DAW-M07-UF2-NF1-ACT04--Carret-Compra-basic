@@ -67,7 +67,7 @@ class Cart
 			
             $this->items[$id]->setQuantity($qty);
 		}
-        else throw new Exception("Item no existent");
+        else throw new \Exception("Item no existent");
      }
 
      /**
@@ -95,7 +95,7 @@ class Cart
         if(isset($this->items[$id])) {
             return $this->items[$id];
         }
-        else throw new Exception("Item no existent");  
+        else throw new \Exception("Item no existent");  
     }
 
 
