@@ -47,9 +47,7 @@
 	}
 	echo "</table>";
 
-	// guardem el contingut modificat del carret en la sessió
-	// per poder-lo recuperar en la propera crida
-	 $_SESSION['carret'] = $carret;
+	
 
 
 ?>
